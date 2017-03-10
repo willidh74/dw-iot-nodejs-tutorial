@@ -43,9 +43,9 @@ var iotCredentials;
 
 /**
  * @attention 
- * iot-raspberrypi is the IoT platform service name in this example, you should replace it with yours
+ * iot-raspberrypi is the IoT platform service name in this example, you should replace it with yours - DONE
  */
-var iotPlatformServiceName = 'iot-raspberrypi';
+var iotPlatformServiceName = 'Internet of Things Platform-l5';
 
 //Loop through configuration internally defined in Bluemix and retrieve the credential from the IoT service
 var baseConfig = appEnv.getServices(iotPlatformServiceName);
