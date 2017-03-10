@@ -2,9 +2,9 @@ applications:
 - path: .
   memory: 256M
   instances: 1
-  domain: eu-gb.mybluemix.net
-  name: iot-nodejs-tutorial
-  host: iot-nodejs-tutorial
+  domain: mybluemix.net
+  name: dw-iot-nodejs-tutorial
+  host: dw-iot-nodejs-tutorial
   disk_quota: 1024M
   services:
-  - iot-raspberrypi
+  - Internet of Things Platform-l5
